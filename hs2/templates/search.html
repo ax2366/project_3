@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+              rel="stylesheet" 
+              integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+              crossorigin="anonymous">
+    <title>Congestion Expected</title>
+    </head>
+    <body style="background-color:rgb(211, 234, 245);">
+        <form method = "post" action = '/result'>
+            <div class = 'infotab'>
+                <span style="color: #100f0f;">예상 기온 :</span>
+                <input type ='int' name = 'temp' size = '20' placeholder= '값을 입력해주세요.'>
+            </div>
+            <div class = 'infotab'>
+                <span style="color: #050505;">예상 강수량 :</span>
+                <input type ='int' name = 'rain' size = '20' placeholder= '값을 입력해주세요.'>
+            </div>
+            <div class ='submitbtn'>
+                <input type = 'submit' value = '혼잡 예상도 확인하기'>
+            </div>
+        </form>
+
+    </body>
+</html>

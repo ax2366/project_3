@@ -1,0 +1,17 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body style="background-color:rgb(211, 234, 245);">
+        <span style="color: #030303;"> 혼잡 예정 : {{result_}}</span>
+        {% if result_ == 0 %}
+            <h2> 혼잡하지 않을 예정입니다. 즐거운 방문 되세요! ^_^ </h2>
+        {% else %}
+            <h2> 혼잡할 예정입니다. 참고하여 방문하세요. ㅠ_ㅠ </h2>
+        {% endif %}
+    </body>
+</html>
